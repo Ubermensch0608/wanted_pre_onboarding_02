@@ -1,12 +1,11 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setPeriodActions } from "store";
 
 import SectionBody from "layout/Section/SectionBody";
 import SectionBodyContent from "layout/Section/SectionBodyContent";
 import RadioInput from "layout/Inputs/RadioInput";
 import ContentBodyTitle from "layout/Section/ContentBodyTitle";
-import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setPeriodActions } from "store";
 
 const userSelectionMockData = [
   { id: 1, selection: "제한 없음" },
